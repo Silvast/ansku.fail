@@ -1,6 +1,6 @@
 ---
 date: 2017-06-21
-title: Ttokatitle metadatasta
+title: Toisen postauksen otsikko
 slug: title-metadatasta-2
 ---
 

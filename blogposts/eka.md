@@ -1,6 +1,6 @@
 ---
 date: 2017-06-21
-title: Title metadatasta
+title: Ensimmäisen postauksen otsikko
 slug: title-metadatasta-1
 ---
 
