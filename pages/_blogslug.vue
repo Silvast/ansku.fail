@@ -17,7 +17,7 @@
 import axios from '~plugins/axios'
 
 export default {
-  name: 'blogtitle',
+  name: 'blogslug',
   asyncData ({ params, error }) {
     return axios.get('/api/blogs/' + params.blogid)
     .then((res) => {

@@ -4,10 +4,10 @@
 <div class="blogs">
         <ul class="blogs">
           <li v-for="(blogitem, index) in blogs" class="blogs">
-            <nuxt-link :to="{ name: 'blogid', params: { blogid: index }}">
+            <nuxt-link :to="{ name: 'blogslug' , params: { blogid: index,  blogtitle: blogitem.title, blogslug: blogitem.slug } }">
               {{ blogitem.title }}
             </nuxt-link>
-          </li>
+        </li>
         </ul>
     </div>
 </div>
